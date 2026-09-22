@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://total-pest-control-chicago.github.io/sitemap.xml
