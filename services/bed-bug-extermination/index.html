@@ -30,7 +30,7 @@
   <link href="/new-total-pest-control-website/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="/new-total-pest-control-website/assets/css/main.css" rel="stylesheet">
+  <link href="/new-total-pest-control-website/assets/css/main.css?v=1792286839" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Constructify
@@ -43,6 +43,8 @@
 
 <body class="service-details-page">
 
+  <a class="skip-link visually-hidden-focusable" href="#main">Skip to main content</a>
+
   
     <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xxl position-relative d-flex align-items-center justify-content-between">
@@ -51,11 +53,12 @@
         <img src="/new-total-pest-control-website/assets/img/logo.svg" alt="Total Pest Control">
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
+      <nav id="navmenu" class="navmenu" aria-label="Main">
+        <button type="button" class="mobile-nav-toggle d-lg-none bi bi-list" aria-label="Open menu" aria-expanded="false" aria-controls="navmenu-list"></button>
+        <ul id="navmenu-list">
           <li><a href="/new-total-pest-control-website/">Home</a></li>
           <li><a href="/new-total-pest-control-website/about/">About</a></li>
-          <li class="dropdown"><a href="/new-total-pest-control-website/services/"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="/new-total-pest-control-website/services/"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown" aria-hidden="true"></i></a>
             <ul>
               <li><a href="/new-total-pest-control-website/services/insect-exterminator/">Insect Exterminator</a></li>
               <li><a href="/new-total-pest-control-website/services/termite-control/">Termite Control</a></li>
@@ -66,37 +69,36 @@
             </ul>
           </li>
           <li><a href="/new-total-pest-control-website/contact/">Contact</a></li>
-          <li class="d-lg-none"><a class="btn-call-mobile" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal"><i class="bi bi-telephone-fill"></i> Call Now</a></li>
+          <li class="d-lg-none"><a class="btn-call-mobile" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal" aria-haspopup="dialog"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Call Now</a></li>
           <li class="d-lg-none"><a class="btn-call-mobile" href="/new-total-pest-control-website/estimate/">Free Estimate</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-lg-none bi bi-list"></i>
       </nav>
 
       <div class="header-actions d-none d-lg-flex align-items-center">
-        <a class="btn-call" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal"><i class="bi bi-telephone-fill"></i><span>Call Now</span></a>
+        <a class="btn-call" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal" aria-haspopup="dialog"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>Call Now</span></a>
         <a class="btn-quote d-none d-sm-inline-flex" href="/new-total-pest-control-website/estimate/">Get Free Estimate</a>
       </div>
 
       
 
-      <a class="btn-call-header d-lg-none" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal"><i class="bi bi-telephone-fill"></i><span>Call Now</span></a>
+      <a class="btn-call-header d-lg-none" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal" aria-haspopup="dialog"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>Call Now</span></a>
 
     </div>
   </header>
 
   
-  <main class="main">
+  <main id="main" class="main" tabindex="-1">
 <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
         <h1 class="mb-2 mb-lg-0">Bed Bug Extermination</h1>
-        <nav class="breadcrumbs">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
           <ol>
             <li><a href="/new-total-pest-control-website/">Home</a></li>
             
             <li><a href="/new-total-pest-control-website/services/">Services</a></li>
             
-            <li class="current">Bed Bug Extermination</li>
+            <li class="current" aria-current="page">Bed Bug Extermination</li>
           </ol>
         </nav>
       </div>
@@ -115,7 +117,7 @@
 
               <div class="service-overview">
                 <div class="overview-header">
-                  <i class="bi bi-moon-stars"></i>
+                  <i class="bi bi-moon-stars" aria-hidden="true"></i>
                   <h3>Service Overview</h3>
                 </div>
                 <div class="overview-content">
@@ -130,21 +132,21 @@
               <div class="key-benefits">
                 <h4>Key Benefits</h4>
                 <ul>
-                  <li><i class="bi bi-check-circle-fill"></i> Same-day bed bug service, 7 days a week</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Advanced protocols &amp; IPM methods</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Child- and pet-safe treatments</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Discreet service for homes &amp; businesses</li>
-                  <li><i class="bi bi-check-circle-fill"></i> Guaranteed results with no contract required</li>
+                  <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Same-day bed bug service, 7 days a week</li>
+                  <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Advanced protocols &amp; IPM methods</li>
+                  <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Child- and pet-safe treatments</li>
+                  <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Discreet service for homes &amp; businesses</li>
+                  <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Guaranteed results with no contract required</li>
                 </ul>
               </div>
 
               <div class="contact-card">
                 <div class="contact-header">
-                  <i class="bi bi-headset"></i>
+                  <i class="bi bi-headset" aria-hidden="true"></i>
                   <h4>Bed Bugs? Act Fast.</h4>
                 </div>
                 <div class="contact-info">
-                  <a href="tel:+17733383918" class="btn-call" data-bs-toggle="modal" data-bs-target="#callModal"><i class="bi bi-telephone-fill"></i><span>Call Us</span></a>
+                  <a href="tel:+17733383918" class="btn-call" data-bs-toggle="modal" data-bs-target="#callModal" aria-haspopup="dialog"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>Call Us</span></a>
                 </div>
               </div>
 
@@ -177,6 +179,9 @@
                     }
                   </script>
                   <div class="swiper-wrapper align-items-center">
+                    <div class="swiper-slide">
+                      <img src="/new-total-pest-control-website/assets/img/bed-bugs.jpg" alt="Close-up of a bed bug on human skin" class="img-fluid" loading="lazy">
+                    </div>
                     <div class="swiper-slide">
                       <img src="/new-total-pest-control-website/assets/img/services/bed-bug-on-fabric.jpg" alt="Bed bug on white mattress fabric" class="img-fluid" loading="lazy">
                     </div>
@@ -215,7 +220,7 @@
                   <div class="col-md-6">
                     <div class="feature-card">
                       <div class="icon-wrapper">
-                        <i class="bi bi-search"></i>
+                        <i class="bi bi-search" aria-hidden="true"></i>
                       </div>
                       <h4>Thorough Inspection</h4>
                       <p>We inspect mattresses, furniture, baseboards, and hidden harborage points to map the full extent of the infestation.</p>
@@ -224,7 +229,7 @@
                   <div class="col-md-6">
                     <div class="feature-card">
                       <div class="icon-wrapper">
-                        <i class="bi bi-crosshair"></i>
+                        <i class="bi bi-crosshair" aria-hidden="true"></i>
                       </div>
                       <h4>Advanced Treatment Protocols</h4>
                       <p>Proven, professionally applied treatments that reach bed bugs where they hide, including eggs and nymphs.</p>
@@ -233,7 +238,7 @@
                   <div class="col-md-6">
                     <div class="feature-card">
                       <div class="icon-wrapper">
-                        <i class="bi bi-arrow-repeat"></i>
+                        <i class="bi bi-arrow-repeat" aria-hidden="true"></i>
                       </div>
                       <h4>Follow-Up Visits</h4>
                       <p>We return to verify complete elimination and re-treat if needed, because one missed egg can restart an infestation.</p>
@@ -242,7 +247,7 @@
                   <div class="col-md-6">
                     <div class="feature-card">
                       <div class="icon-wrapper">
-                        <i class="bi bi-building"></i>
+                        <i class="bi bi-building" aria-hidden="true"></i>
                       </div>
                       <h4>Homes &amp; Businesses</h4>
                       <p>Discreet bed bug service for apartments, condos, hotels, and multi-unit buildings throughout Chicagoland.</p>
@@ -403,14 +408,14 @@
         <div class="modal-body">
           <p>Choose the line for your area:</p>
           <a href="tel:+17733383918" class="call-option">
-            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
             <span>
               <strong>Chicago</strong>
               <span>773-338-3918</span>
             </span>
           </a>
           <a href="tel:+18474241521" class="call-option">
-            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
             <span>
               <strong>Suburbs</strong>
               <span>847-424-1521</span>
@@ -422,7 +427,7 @@
   </div><!-- /Call Modal -->
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" aria-label="Back to top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>

@@ -30,7 +30,7 @@
   <link href="/new-total-pest-control-website/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="/new-total-pest-control-website/assets/css/main.css" rel="stylesheet">
+  <link href="/new-total-pest-control-website/assets/css/main.css?v=1792286839" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Constructify
@@ -43,6 +43,8 @@
 
 <body class="services-page">
 
+  <a class="skip-link visually-hidden-focusable" href="#main">Skip to main content</a>
+
   
     <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="container-fluid container-xxl position-relative d-flex align-items-center justify-content-between">
@@ -51,11 +53,12 @@
         <img src="/new-total-pest-control-website/assets/img/logo.svg" alt="Total Pest Control">
       </a>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
+      <nav id="navmenu" class="navmenu" aria-label="Main">
+        <button type="button" class="mobile-nav-toggle d-lg-none bi bi-list" aria-label="Open menu" aria-expanded="false" aria-controls="navmenu-list"></button>
+        <ul id="navmenu-list">
           <li><a href="/new-total-pest-control-website/">Home</a></li>
           <li><a href="/new-total-pest-control-website/about/">About</a></li>
-          <li class="dropdown"><a href="/new-total-pest-control-website/services/"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="/new-total-pest-control-website/services/"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown" aria-hidden="true"></i></a>
             <ul>
               <li><a href="/new-total-pest-control-website/services/insect-exterminator/">Insect Exterminator</a></li>
               <li><a href="/new-total-pest-control-website/services/termite-control/">Termite Control</a></li>
@@ -66,35 +69,34 @@
             </ul>
           </li>
           <li><a href="/new-total-pest-control-website/contact/">Contact</a></li>
-          <li class="d-lg-none"><a class="btn-call-mobile" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal"><i class="bi bi-telephone-fill"></i> Call Now</a></li>
+          <li class="d-lg-none"><a class="btn-call-mobile" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal" aria-haspopup="dialog"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Call Now</a></li>
           <li class="d-lg-none"><a class="btn-call-mobile" href="/new-total-pest-control-website/estimate/">Free Estimate</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-lg-none bi bi-list"></i>
       </nav>
 
       <div class="header-actions d-none d-lg-flex align-items-center">
-        <a class="btn-call" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal"><i class="bi bi-telephone-fill"></i><span>Call Now</span></a>
+        <a class="btn-call" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal" aria-haspopup="dialog"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>Call Now</span></a>
         <a class="btn-quote d-none d-sm-inline-flex" href="/new-total-pest-control-website/estimate/">Get Free Estimate</a>
       </div>
 
       
 
-      <a class="btn-call-header d-lg-none" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal"><i class="bi bi-telephone-fill"></i><span>Call Now</span></a>
+      <a class="btn-call-header d-lg-none" href="tel:+17733383918" data-bs-toggle="modal" data-bs-target="#callModal" aria-haspopup="dialog"><i class="bi bi-telephone-fill" aria-hidden="true"></i><span>Call Now</span></a>
 
     </div>
   </header>
 
   
-  <main class="main">
+  <main id="main" class="main" tabindex="-1">
 <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
         <h1 class="mb-2 mb-lg-0">Our Services</h1>
-        <nav class="breadcrumbs">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
           <ol>
             <li><a href="/new-total-pest-control-website/">Home</a></li>
             
-            <li class="current">Services</li>
+            <li class="current" aria-current="page">Services</li>
           </ol>
         </nav>
       </div>
@@ -116,10 +118,10 @@
 
           <div class="col-lg-4">
             <div class="services-image">
-              <img src="/new-total-pest-control-website/assets/img/bee-infestation.jpg" alt="Total Pest Control technician on the job" class="img-fluid">
+              <img src="/new-total-pest-control-website/assets/img/bee-infestation.jpg" alt="Infestation of bees in wood" class="img-fluid">
               <div class="image-overlay">
                 <h3>Total Pest Control &amp; Extermination, Guaranteed</h3>
-                <a href="/new-total-pest-control-website/estimate/" class="overlay-link">Get a Free Pest Control Estimate <i class="bi bi-arrow-right"></i></a>
+                <a href="/new-total-pest-control-website/estimate/" class="overlay-link">Get a Free Pest Control Estimate <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -130,12 +132,12 @@
               <div class="col-md-6">
                 <div class="service-item">
                   <div class="service-icon">
-                    <i class="bi bi-bug"></i>
+                    <i class="bi bi-bug" aria-hidden="true"></i>
                   </div>
                   <div class="service-body">
                     <h4>Insect Exterminator</h4>
                     <p>Even clean homes attract pests. Say goodbye to ants, roaches, fleas, spiders, mosquitoes, flies, centipedes, and silverfish with same-day insect extermination, available seven days a week, year-round.</p>
-                    <a href="/new-total-pest-control-website/services/insect-exterminator/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Insect Extermination</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="/new-total-pest-control-website/services/insect-exterminator/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Insect Extermination</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div><!-- End Service -->
@@ -143,12 +145,12 @@
               <div class="col-md-6">
                 <div class="service-item">
                   <div class="service-icon">
-                    <i class="bi bi-house-exclamation"></i>
+                    <i class="bi bi-house-exclamation" aria-hidden="true"></i>
                   </div>
                   <div class="service-body">
                     <h4>Termite Control</h4>
                     <p>Trained and certified termite technicians provide complete residential and commercial inspections that detect activity, conducive conditions, and entry points, plus treatment programs that protect your property from future infestations.</p>
-                    <a href="/new-total-pest-control-website/services/termite-control/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Termite Control</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="/new-total-pest-control-website/services/termite-control/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Termite Control</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div><!-- End Service -->
@@ -156,12 +158,12 @@
               <div class="col-md-6">
                 <div class="service-item">
                   <div class="service-icon">
-                    <i class="bi bi-moon-stars"></i>
+                    <i class="bi bi-moon-stars" aria-hidden="true"></i>
                   </div>
                   <div class="service-body">
                     <h4>Bed Bug Extermination</h4>
                     <p>Our bed bug experts use advanced protocols and integrated pest management (IPM) methodologies to deliver the most effective, rapid bed bug removal, so you can sleep easy again, fast.</p>
-                    <a href="/new-total-pest-control-website/services/bed-bug-extermination/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Bed Bug Extermination</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="/new-total-pest-control-website/services/bed-bug-extermination/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Bed Bug Extermination</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div><!-- End Service -->
@@ -169,12 +171,12 @@
               <div class="col-md-6">
                 <div class="service-item">
                   <div class="service-icon">
-                    <i class="bi bi-exclamation-octagon"></i>
+                    <i class="bi bi-exclamation-octagon" aria-hidden="true"></i>
                   </div>
                   <div class="service-body">
                     <h4>Rodent, Mouse &amp; Rat Control</h4>
                     <p>Rodent droppings can carry disease. We eliminate mice and rats using tamper-resistant exterior bait stations and non-poisonous indoor methods that are safe for your family and pets, and tough on rodents.</p>
-                    <a href="/new-total-pest-control-website/services/rodent-control/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Rodent Control</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="/new-total-pest-control-website/services/rodent-control/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Rodent Control</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div><!-- End Service -->
@@ -182,12 +184,12 @@
               <div class="col-md-6">
                 <div class="service-item">
                   <div class="service-icon">
-                    <i class="bi bi-tree"></i>
+                    <i class="bi bi-tree" aria-hidden="true"></i>
                   </div>
                   <div class="service-body">
                     <h4>Wildlife Removal &amp; Control</h4>
                     <p>Noises in the attic at night? Squirrels, raccoons, opossums, or bats may have moved in. We humanely remove wildlife before they damage your home, belongings, or threaten your family.</p>
-                    <a href="/new-total-pest-control-website/services/wildlife-removal/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Wildlife Removal</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="/new-total-pest-control-website/services/wildlife-removal/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Wildlife Removal</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div><!-- End Service -->
@@ -195,12 +197,12 @@
               <div class="col-md-6">
                 <div class="service-item">
                   <div class="service-icon">
-                    <i class="bi bi-shield-plus"></i>
+                    <i class="bi bi-shield-plus" aria-hidden="true"></i>
                   </div>
                   <div class="service-body">
                     <h4>Bee &amp; Wasp Removal</h4>
                     <p>Our stinging-insect specialists safely remove bees, wasps, hornets, and yellow jackets, while our wasp-proofing service prevents nesting so you can enjoy your yard, deck, and pool all season long. Guaranteed.</p>
-                    <a href="/new-total-pest-control-website/services/bee-wasp-removal/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Bee &amp; Wasp Removal</span> <i class="bi bi-arrow-right"></i></a>
+                    <a href="/new-total-pest-control-website/services/bee-wasp-removal/" class="service-link stretched-link">Learn More<span class="visually-hidden"> about Bee &amp; Wasp Removal</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
                   </div>
                 </div>
               </div><!-- End Service -->
@@ -231,7 +233,7 @@
             <div class="process-step">
               <div class="step-number">01</div>
               <div class="step-icon">
-                <i class="bi bi-chat-dots"></i>
+                <i class="bi bi-chat-dots" aria-hidden="true"></i>
               </div>
               <h3>Free Consultation</h3>
               <p>Call 773-338-3918 and describe your pest problem. We offer free estimates and same-day appointments, seven days a week.</p>
@@ -242,7 +244,7 @@
             <div class="process-step">
               <div class="step-number">02</div>
               <div class="step-icon">
-                <i class="bi bi-search"></i>
+                <i class="bi bi-search" aria-hidden="true"></i>
               </div>
               <h3>Thorough Inspection</h3>
               <p>A trained technician inspects your property to identify the pest, locate activity and entry points, and pinpoint conditions attracting the infestation.</p>
@@ -253,7 +255,7 @@
             <div class="process-step">
               <div class="step-number">03</div>
               <div class="step-icon">
-                <i class="bi bi-gear"></i>
+                <i class="bi bi-gear" aria-hidden="true"></i>
               </div>
               <h3>Targeted Treatment</h3>
               <p>We apply child- and pet-safe treatments and integrated pest management methods to eliminate the infestation quickly, with minimal disruption to your life.</p>
@@ -264,7 +266,7 @@
             <div class="process-step">
               <div class="step-number">04</div>
               <div class="step-icon">
-                <i class="bi bi-shield-check"></i>
+                <i class="bi bi-shield-check" aria-hidden="true"></i>
               </div>
               <h3>Prevention &amp; Guarantee</h3>
               <p>We seal entry points and recommend indoor and outdoor prevention programs to keep pests out for good. Every job is guaranteed, with no contract required.</p>
@@ -347,14 +349,14 @@
         <div class="modal-body">
           <p>Choose the line for your area:</p>
           <a href="tel:+17733383918" class="call-option">
-            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
             <span>
               <strong>Chicago</strong>
               <span>773-338-3918</span>
             </span>
           </a>
           <a href="tel:+18474241521" class="call-option">
-            <i class="bi bi-telephone-fill"></i>
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
             <span>
               <strong>Suburbs</strong>
               <span>847-424-1521</span>
@@ -366,7 +368,7 @@
   </div><!-- /Call Modal -->
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" aria-label="Back to top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
